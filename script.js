@@ -3,7 +3,7 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-gsap.from(".nkink", {
+gsap.from(".nlink", {
     stagger: .1,
     y: 10,
 duration: 2,
