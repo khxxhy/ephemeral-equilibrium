@@ -53,6 +53,12 @@ gap: 20px;
 #sustain {
     width:10vw;
 }
+#sustain h2{
+   font-size: 1.2vw; 
+   font-weight: 600;
+   opacity: 0.7;
+   letter-spacing: -.05vw;
+}
 
 #sustain p {
     opacity: 0.5;
@@ -141,6 +147,11 @@ h4{
      display: flex;
      justify-content: space-between;
 }
+#motive h3{
+    font-weight: 100;
+    color: #939090;
+    font-size: 1.3vw;
+}
 #motive p{
     letter-spacing: .5px;
     position: relative;
@@ -177,4 +188,159 @@ h4{
     background-image: url(./sources/grass.jpg);
     background-size: cover;
     background-position: 0 60%;
+}
+#pictures{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+}
+#synergy{
+    margin-top: 7vw;
+    width: 14vw;
+}
+#synimg{
+    width: 100%;
+height:22vw;
+margin-bottom: 2vw;
+}
+
+#synimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#synergy h1{
+    font-weight: 100;
+    font-size: 2vw;
+    letter-spacing: -.08vw;
+}
+
+#synergy p{
+    margin-top: 1vw;
+color: #716f6f;
+font-size: .9vw;
+width: 83%;
+line-height: 12px;
+font-weight: 100;
+}
+
+#harmony{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 7vw;
+    width: 22vw;
+}
+
+#harimg{
+    width: 100%;
+height:35vw;
+margin-bottom: 2vw;
+}
+
+#harimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#harmony h1{
+    font-weight: 100;
+    font-size: 2vw;
+    letter-spacing: -.08vw;
+}
+
+#harmony p{
+   text-align: right;
+    margin-top: 1vw;
+color: #716f6f;
+font-size: 1vw;
+width: 75%;
+font-weight: 100;
+line-height: 15px;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+}
+
+#bimg{
+    width: 65%;
+ height: 60vh;
+}
+
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 70%;
+}
+#btext{
+    width: 35%;
+    padding: 0px 3vw;
+   
+}
+#btext h1{
+    font-size: 2.4vw;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -.1vw;
+}
+
+#btext p{
+margin-top: 20px;
+width: 60%;
+font-size: 1.1vw;
+font-weight: 100;
+color: #716f6f;
+}
+
+#future{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-self: center;    
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+}
+#future video{
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; 
+}
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+}
+#ftext h1{
+font-size: 2vw;
+font-weight: 100;
+letter-spacing: -2px;
+mix-blend-mode: color;
+}
+
+#ftext button{
+   padding: 1vw 1.3vw;
+   font-size: 1vw;
+   text-transform:lowercase;
+   letter-spacing: -.05vw;
+   margin-top: 7px;
+   font-weight: 100;
+border-radius: 100px;
+background-color: #ffffff;
+border: 1px solid #aca7a7;
 }
