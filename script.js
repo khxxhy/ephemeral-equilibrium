@@ -36,5 +36,5 @@ Shery.imageEffect("#imgntext img", {
 
 Shery.imageEffect("#susimagewrapper img", {
     style:5,
-    debug: true,
+    
 });
